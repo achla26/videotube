@@ -2,9 +2,9 @@
   "name": "backend-practice",
   "version": "1.0.0",
   "main": "index.js",
-  "type" : "modules",
+  "type" : "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "",
   "license": "ISC",
